@@ -1,7 +1,7 @@
 <div>
   <img src='assets/images/2018_Gargoyle_Tattoo.png' width='175px' height='175px'><br>  
   <label>Net Sales</label><br>
-  <input type='number' [(ngModel)]='netSales'><br>  
+  <input type='number' [(ngModel)]='netSales' autofocus placeholder=" touch here"><br>  
   <label>Bar Tip</label><br>
   <p>{{(this.netSales*.01) | currency : 'USD' : true : '1.2-2'}}</p>
   <label>Runner Tip</label><br>
